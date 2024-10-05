@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    <title>CLICK GAME</title>
+</head>
+<body>
+    <div id="page">
+        <h1 class="title">CLICK GAME</h1>
+        <header class="header">
+            <div class="headerbtn" id="10sec"><a href="#" class="textbtn"> 10 secondes </a></div>
+            <div class="headerbtn" id="20sec"><a href="#" class="textbtn"> 20 secondes </a></div>
+            <div class="headerbtn" id="30sec"><a href="#" class="textbtn"> 30 secondes </a></div>
+            <div class="headerbtn" id="60sec"><a href="#" class="textbtn"> 60 secondes </a></div>
+        </header>
+        <header class="header" id = "indication"> Choose your challenge </header>
+        <div class="container">
+            <button class ="btn" id="btnstart">
+                <span id="START"> START </span> 
+                <span id="display"></span>
+            </button>
+            <div id="timerdisplay"></div>
+            <div class="footer" id="result"></div>
+            <div class="footer" id="tryagain"></div>
+            <div class="btn" id="tryagainbtn"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
